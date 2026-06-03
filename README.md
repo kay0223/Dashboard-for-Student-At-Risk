@@ -115,7 +115,7 @@ Because the schema is locked, refreshing is just re-uploading the same CSVs:
 
 **Safe schema changes:** the unified ETL preserves every existing column name and type. New columns (`data_source`, `role`) load silently and don't appear in any visual until choose to use them.
 
-**Heads-up on the "Never Login" bin:** the unified ETL emits BLANK (empty cell) for `days_since_last_login` when a student has `lastaccess=0`. The DAX bin definition used `IF(ISBLANK(...), "0 - Never Login", ...)`, which handles this correctly.
+**Heads-up on the "Never Login" bin:** the unified ETL emits BLANK (empty cell) for `days_since_last_login` when a student has `lastaccess=0`. The DAX bin definition used `IF(ISBLANK(...), "0 - Never Login", ...)`.
 
 ---
 
