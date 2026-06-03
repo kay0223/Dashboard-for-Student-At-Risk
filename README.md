@@ -45,8 +45,8 @@ pip install -r requirements.txt
 
 # 2. Create .env in the project root or one level up
 cat > .env <<EOF
-MOODLE_BASE_URL=https://spi.nsw.edu.au/learn
-MOODLE_TOKEN=<4daf5db24f615a924be6299b5e3ba4ec>
+MOODLE_BASE_URL=Moodle_Base_URL
+MOODLE_TOKEN=<TOKEN>
 EOF
 
 # 3. Sanity-check the token (optional but recommended)
