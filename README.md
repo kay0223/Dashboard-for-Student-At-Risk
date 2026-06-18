@@ -21,7 +21,7 @@ Educators often see that a student is struggling only after grades drop. This pr
 
 ## My role
 
-I designed and built the **data pipeline and the Power BI dashboard** end to end — the Moodle REST integration, the transform/risk-scoring logic, the star-schema output contract, and the dashboard and its DAX measures. *(Adjust this line if teammates contributed specific parts.)*
+I designed and built the **data pipeline and the Power BI dashboard** end to end - the Moodle REST integration, the transform/risk-scoring logic, the star-schema output contract, and the dashboard and its DAX measures. 
 
 ## Dashboard preview
 
