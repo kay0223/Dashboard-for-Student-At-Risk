@@ -224,5 +224,5 @@ The schema-resistant design means the dashboard never needs to know whether the 
 
 ## Author
 
-**Kay Jiang** · [kay0223@gmail.com](mailto:kay0223@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kay-jiang-10306480/)
-Master of Data Science (AI), Sydney Polytechnic Institute.
+**Kay Jiang** · [kay0223@gmail.com](mailto:kay0223@gmail.com) · 
+Master of Data Science (AI)
