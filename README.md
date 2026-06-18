@@ -2,7 +2,7 @@
 
 A live **Power BI dashboard**, fed by an automated **Python + Moodle REST API** pipeline, that flags students at academic risk early so educators can intervene before students fall behind.
 
-> Individual industry-experience (internship) project — *Master of Data Science*, Sydney Polytechnic Institute (2026).
+> Individual industry-experience (internship) project — *Master of Data Science (AI)*, (2026).
 > **Tech:** `Python` · `Moodle REST API` · `pandas` · `Power BI` · `ETL` · `star-schema modelling`
 
 ---
