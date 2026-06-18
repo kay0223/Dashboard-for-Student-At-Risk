@@ -26,7 +26,13 @@ A solo project completed during an industry-experience internship. I designed an
 ## Dashboard preview
 
 <!-- Add a screenshot once exported: place it in /docs and update the path below -->
-![Dashboard preview](docs/dashboard_preview.png)
+<img width="984" height="567" alt="PAGE 1 EXECUTIVE OVERVIEW" src="https://github.com/user-attachments/assets/794498fb-54ec-4bd8-8503-e5104cc2d07c" />
+
+<img width="963" height="536" alt="PAGE 2  AT-RISK ANALYSIS" src="https://github.com/user-attachments/assets/023c3a33-fa06-4e60-b6fb-946e7d4ebe44" />
+
+<img width="972" height="543" alt="PAGE 3 STUDENT DRILLDOWN" src="https://github.com/user-attachments/assets/5ff91f60-0e4b-4e92-bad7-30aafe8176c8" />
+
+<img width="976" height="556" alt="PAGE 4 ASSESSMENT ANALYSIS" src="https://github.com/user-attachments/assets/7bd2cd92-7ddb-4be8-a743-c075c699ab51" />
 
 > *Screenshot uses the synthetic demo cohort — no real student data is shown.*
 
