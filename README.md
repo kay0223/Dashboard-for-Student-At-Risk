@@ -2,7 +2,7 @@
 
 A live **Power BI dashboard**, fed by an automated **Python + Moodle REST API** pipeline, that flags students at academic risk early so educators can intervene before students fall behind.
 
-> Industry capstone project — *Master of Data Science*, Sydney Polytechnic Institute (2026).
+> Individual industry-experience (internship) project — *Master of Data Science*, Sydney Polytechnic Institute (2026).
 > **Tech:** `Python` · `Moodle REST API` · `pandas` · `Power BI` · `ETL` · `star-schema modelling`
 
 ---
@@ -21,7 +21,7 @@ Educators often see that a student is struggling only after grades drop. This pr
 
 ## My role
 
-I designed and built the **data pipeline and the Power BI dashboard** end to end - the Moodle REST integration, the transform/risk-scoring logic, the star-schema output contract, and the dashboard and its DAX measures. 
+A solo project completed during an industry-experience internship. I designed and built the **data pipeline and the Power BI dashboard** end to end — the Moodle REST integration, the transform/risk-scoring logic, the star-schema output contract, and the dashboard and its DAX measures.
 
 ## Dashboard preview
 
@@ -34,11 +34,11 @@ I designed and built the **data pipeline and the Power BI dashboard** end to end
 
 ## Data & privacy
 
-This repository contains **code only** - no real student data and no credentials are committed.
+This repository contains **code only** — no real student data and no credentials are committed.
 
 - **No personal data (PII).** The pipeline reads student records (names, IDs, grades, login activity) from Moodle at runtime, but none of it is stored in this repo. The `data/` directory is generated locally and is git-ignored.
 - **Demonstrations use mock data.** When real Moodle data is unavailable or a cohort is too small, the pipeline falls back to a **deterministic demo cohort (IDs 1001–1022, "Dummy" names)**. Any sample data shown here is synthetic.
-- **Credentials are never committed.** `MOODLE_BASE_URL` and `MOODLE_TOKEN` live in a local `.env` file (git-ignored). 
+- **Credentials are never committed.** `MOODLE_BASE_URL` and `MOODLE_TOKEN` live in a local `.env` file (git-ignored). Create your own from the Setup section.
 - **Built with data governance and responsible/ethical use** of student information in mind.
 
 ---
@@ -47,9 +47,9 @@ This repository contains **code only** - no real student data and no credentials
 
 Three notebooks drive the pipeline; both ETL paths emit **identical output schemas**, so the Power BI dashboard works against either without modification.
 
-- **`hybrid_etl.ipynb`** - development phase. Connects to the Moodle sandbox and falls back to mock data per cell when real data is unavailable. Use while real Moodle data is sparse.
-- **`production_etl.ipynb`** - production phase. Real Moodle only; fails loud on any missing required field. Use for deployment.
-- **`probe_moodle.ipynb`** - diagnostic. Tests every endpoint, prints accessibility, and helps debug token issues.
+- **`hybrid_etl.ipynb`** — development phase. Connects to the Moodle sandbox and falls back to mock data per cell when real data is unavailable. Use while real Moodle data is sparse.
+- **`production_etl.ipynb`** — production phase. Real Moodle only; fails loud on any missing required field. Use for deployment.
+- **`probe_moodle.ipynb`** — diagnostic. Tests every endpoint, prints accessibility, and helps debug token issues.
 
 ## Project layout
 
