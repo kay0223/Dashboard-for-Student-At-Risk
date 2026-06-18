@@ -1,0 +1,39 @@
+# ── Secrets & credentials (NEVER commit) ─────────────────────────
+.env
+.env.*
+*.token
+secrets.*
+**/credentials*.json
+
+# ── Data (no real student PII or raw Moodle exports) ─────────────
+data/
+**/raw/
+**/processed/
+**/star_schema/
+*.csv
+*.parquet
+*.xlsx
+# If you want to ship a tiny mock/demo sample, force-add it explicitly:
+#   git add -f data/star_schema/sample_mock.csv
+
+# ── Power BI working files ───────────────────────────────────────
+*.pbix
+~$*
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ── Notebooks: keep code, drop heavy/identifying outputs ─────────
+# (Best practice: clear notebook outputs before committing.)
+
+# ── OS / editor cruft ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
